@@ -33,8 +33,8 @@
         
         <allow-navigation href="*" />
 
-        <name>Web App</name>
-        <description>Web app simple</description>
+        <name>App</name>
+        <description>demo app</description>
         <author href="http://we2app.com" email="atik@we2app.com">
         Atik
         </author>
