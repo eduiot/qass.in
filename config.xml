@@ -38,11 +38,25 @@
         <author href="http://we2app.com" email="atik@we2app.com">
         Atik
         </author>
+
         <content src="http://www.qass.in/" />
         <icon src="icon.png" />
         <splash src="splash.jpg" />
-        <gap:platform name="android" />
         
+
+        <platform name="android">
+            <preference name="phonegap-version" value="1.0.2" />
+            <preference name="orientation" value="portrait" />
+        </platform>
+
+        <platform name="ios">
+            <preference name="phonegap-version" value="1.0.2" />
+            <preference name="orientation" value="portrait" />
+        </platform>
+        <platform name="windows">
+            <preference name="phonegap-version" value="1.0.2" />
+            <preference name="orientation" value="portrait" />
+        </platform>
 
         
 
