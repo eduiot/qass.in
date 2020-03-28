@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "in.qass.app"
+        version     = "1.2.1"
+        versionCode = "10" >
+        <!-- versionCode is optional and Android only -->
+        <preference name="phonegap-version" value="cli-8.0.0" />
+        
+        <!-- device required so we can detect if we are using iOS -->
+        <plugin name="cordova-plugin-battery-status" spec="~2.0.2" />
+        <plugin name="cordova-plugin-camera" spec="~4.0.3" />
+        <plugin name="cordova-plugin-console" spec="~1.1.0" />
+        <plugin name="cordova-plugin-contacts" spec="~3.0.1" />
+        <plugin name="cordova-plugin-device" spec="~2.0.2" />
+        <plugin name="cordova-plugin-device-motion" spec="~2.0.1" />
+        <plugin name="cordova-plugin-device-orientation" spec="~2.0.1" />
+        <plugin name="cordova-plugin-dialogs" spec="~2.0.1" />
+        <plugin name="cordova-plugin-file" spec="~6.0.1" />
+        <plugin name="cordova-plugin-file-transfer" spec="~1.7.1" />
+        <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
+        <plugin name="cordova-plugin-globalization" spec="~1.11.0" />
+        <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
+        <plugin name="cordova-plugin-media" spec="~5.0.2" />
+        <plugin name="cordova-plugin-media-capture" spec="~3.0.2" />
+        <plugin name="cordova-plugin-network-information" spec="~2.0.1" />
+        <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+        <plugin name="cordova-plugin-vibration" spec="~3.1.0" />
+        <plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
+        <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+        <plugin name="cordova-plugin-local-notifications" spec="https://github.com/katzer/cordova-plugin-local-notifications.git" />
+        
+        
+        <allow-navigation href="*" />
+
+        <name>Web App</name>
+        <description>Web app simple</description>
+        <author href="http://we2app.com" email="atik@we2app.com">
+        Atik
+        </author>
+        <content src="http://www.qass.in/" />
+        <icon src="icon.png" />
+        <splash src="splash.jpg" />
+        <gap:platform name="android" />
+        
+
+        
+
+    </widget>
