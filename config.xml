@@ -45,16 +45,13 @@
         
 
         <platform name="android">
-            <preference name="phonegap-version" value="1.0.2" />
             <preference name="orientation" value="portrait" />
         </platform>
 
         <platform name="ios">
-            <preference name="phonegap-version" value="1.0.2" />
             <preference name="orientation" value="portrait" />
         </platform>
         <platform name="windows">
-            <preference name="phonegap-version" value="1.0.2" />
             <preference name="orientation" value="portrait" />
         </platform>
 
